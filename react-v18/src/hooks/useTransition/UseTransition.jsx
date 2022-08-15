@@ -12,7 +12,7 @@ function UseTransition() {
     }
     return (
         <div>
-            {isPending && <h1>Loading...</h1>}
+            {isPending && <h1>Updating count...</h1>}
             <h1>{count}</h1>
             <button onClick={handleClick}>click</button>
         </div>
