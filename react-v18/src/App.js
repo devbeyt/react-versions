@@ -1,6 +1,6 @@
 import React from 'react'
-import Count from './hooks/batching/Count'
-import Dashboard from './hooks/suspense/Dashboard'
+import Count from './batching/Count'
+import Dashboard from './suspense/Dashboard'
 import UseTransition from './hooks/useTransition/UseTransition'
 import UseTransition2 from './hooks/useTransition/UseTransition2.jsx'
 
