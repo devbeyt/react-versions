@@ -7,11 +7,11 @@ import UseTransition2 from './hooks/useTransition/UseTransition2.jsx'
 function App() {
   return (
     <div>
-      Look App component for to show examples
+      <h1 className='text'>Look App component for to show examples</h1>
       {/* <UseTransition/> */}
       {/* <UseTransition2/> */}
       {/* <Count/> */}
-      <Dashboard/>
+      {/* <Dashboard/> */}
     </div>
   )
 }
