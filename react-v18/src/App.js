@@ -4,6 +4,7 @@ import Dashboard from './suspense/Dashboard'
 import UseTransition from './hooks/useTransition/UseTransition'
 import UseTransition2 from './hooks/useTransition/UseTransition2.jsx'
 import ExampleDeferredValue from './hooks/useDeferredValue/ExampleDeferredValue'
+import UseId from './hooks/useId/UseId'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       {/* <Count/> */}
       {/* <Dashboard/> */}
       {/* <ExampleDeferredValue/> */}
+      <UseId/>
     </div>
   )
 }
